@@ -1,0 +1,82 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Balls and Bins
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-label>Balls</ion-label>
+    <ion-input [(ngModel)]="n" [ngModelOptions]="{standalone:true}"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Bins</ion-label>
+    <ion-input [(ngModel)]="m" [ngModelOptions]="{standalone:true}"></ion-input>
+  </ion-item>
+  <button ion-button (click)="onSubmit()" block>Throw</button>
+  <br/>
+
+  <div *ngIf="min && max">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-label>Min: {{ min }}</ion-label>
+        </ion-col>
+
+        <ion-col>
+          <ion-label>Average: {{ avg }}</ion-label>
+        </ion-col>
+
+        <ion-col end>
+            <ion-label>Max: {{ max }}</ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-card>
+        <ion-card-header>
+          Statistics
+        </ion-card-header>
+        <ion-card-content>
+          <canvas #barCanvas></canvas>
+        </ion-card-content>
+      </ion-card>
+  </div>
+
+  <div *ngIf="qTwoPercent && qTwoTwicePercent">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-label>Bins with more than average number of balls {{ qTwoPercent.toFixed(2) }}%</ion-label>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-label>Bins with more than twice the average number of balls {{ qTwoTwicePercent.toFixed(2) }}%</ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div *ngIf="fullMax">
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-label>The fullest bin had {{ fullMax }} balls</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <ion-card>
+        <ion-card-header>
+          Line Chart
+        </ion-card-header>
+        <ion-card-content>
+          <canvas #lineCanvas></canvas>
+        </ion-card-content>
+      </ion-card>
+    </div>
+</ion-content>

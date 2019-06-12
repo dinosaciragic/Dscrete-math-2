@@ -1,0 +1,14 @@
+C:\Users\Dino\source\repos\BnBBackend\BnBBackend\bin\Debug\netcoreapp2.1\BnBBackend.deps.json
+C:\Users\Dino\source\repos\BnBBackend\BnBBackend\bin\Debug\netcoreapp2.1\BnBBackend.runtimeconfig.json
+C:\Users\Dino\source\repos\BnBBackend\BnBBackend\bin\Debug\netcoreapp2.1\BnBBackend.runtimeconfig.dev.json
+C:\Users\Dino\source\repos\BnBBackend\BnBBackend\bin\Debug\netcoreapp2.1\BnBBackend.dll
+C:\Users\Dino\source\repos\BnBBackend\BnBBackend\bin\Debug\netcoreapp2.1\BnBBackend.pdb
+C:\Users\Dino\source\repos\BnBBackend\BnBBackend\obj\Debug\netcoreapp2.1\BnBBackend.csprojAssemblyReference.cache
+C:\Users\Dino\source\repos\BnBBackend\BnBBackend\obj\Debug\netcoreapp2.1\BnBBackend.csproj.CoreCompileInputs.cache
+C:\Users\Dino\source\repos\BnBBackend\BnBBackend\obj\Debug\netcoreapp2.1\BnBBackend.RazorAssemblyInfo.cache
+C:\Users\Dino\source\repos\BnBBackend\BnBBackend\obj\Debug\netcoreapp2.1\BnBBackend.RazorAssemblyInfo.cs
+C:\Users\Dino\source\repos\BnBBackend\BnBBackend\obj\Debug\netcoreapp2.1\BnBBackend.AssemblyInfoInputs.cache
+C:\Users\Dino\source\repos\BnBBackend\BnBBackend\obj\Debug\netcoreapp2.1\BnBBackend.AssemblyInfo.cs
+C:\Users\Dino\source\repos\BnBBackend\BnBBackend\obj\Debug\netcoreapp2.1\BnBBackend.RazorTargetAssemblyInfo.cache
+C:\Users\Dino\source\repos\BnBBackend\BnBBackend\obj\Debug\netcoreapp2.1\BnBBackend.dll
+C:\Users\Dino\source\repos\BnBBackend\BnBBackend\obj\Debug\netcoreapp2.1\BnBBackend.pdb
